@@ -17,7 +17,7 @@ import io.noks.hcf.caches.Faction;
 public class PlayerManager {
 	public static final Map<UUID, PlayerManager> players = Maps.newConcurrentMap();
 	private final Player player;
-	private final UUID playerUUID
+	private final UUID playerUUID;
 	private Faction faction;
 	private Economy economy;
 	private @Nullable Abilities ability;
