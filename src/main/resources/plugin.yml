@@ -1,0 +1,4 @@
+main: io.noks.hcf.Main
+name: HCF
+version: 0.0.1
+authors: [Noksio, Sathonay]
